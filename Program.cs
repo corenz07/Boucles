@@ -48,7 +48,21 @@ class Program
         }
         Console.WriteLine(number -= 1);
         // Etape 5 : faire une boucle qui se répète à chaque fois que l'utilisateur écrit autre chose que "oui"
-        
+        for(int i =0; i<i+1; i++)
+        {
+            Console.WriteLine("Êtes-vous un humain?");
+            String answer = Console.ReadLine();
+            if(answer == "oui")
+            {
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Menteur !");
+            }
+        }
+
+        }
         /*
          * Après votre dernier commit, faites un push de votre projet pour qu'il soit accessible sur github.com
          */

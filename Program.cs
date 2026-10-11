@@ -35,7 +35,18 @@ class Program
             Console.WriteLine(number);
         }
         // Etape 4 : faire un compteur qui compte 2 par 2 de 0 à 15
-        
+        number = 0;
+        while (number < 15)
+        {
+            number += 2;
+            if (number == 16)
+            {
+                break;
+            }
+            Console.WriteLine(number);
+           
+        }
+        Console.WriteLine(number -= 1);
         // Etape 5 : faire une boucle qui se répète à chaque fois que l'utilisateur écrit autre chose que "oui"
         
         /*
